@@ -1,6 +1,6 @@
 # ==================================================
-# FUTU + LONGBRIDGE QUANTUMULT X RULESET
-# Production Grade / Clean Version
+# BROKER RULESET (OPTIMIZED QX VERSION)
+# FUTU + LONGBRIDGE
 # ==================================================
 
 # =========================
@@ -19,7 +19,8 @@ HOST-SUFFIX,futubull.com,PROXY
 HOST-SUFFIX,futubull.cn,PROXY
 HOST-SUFFIX,futu.link,PROXY
 
-DOMAIN,cdn.futustatic.com,PROXY
+# CDN / static (expanded for stability)
+HOST-SUFFIX,futustatic.com,PROXY
 
 
 # =========================
@@ -31,12 +32,15 @@ HOST-SUFFIX,longbridgeapp.com,PROXY
 HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,lbkrs.com,PROXY
+HOST-SUFFIX,longbridge.global,PROXY
 
-DOMAIN,quote.longbridge.global,PROXY
+
+# quote / realtime (broader coverage)
+DOMAIN-SUFFIX,longbridge.global,PROXY
 
 
 # =========================
-# MARKET DATA (shared dependency)
+# MARKET DATA
 # =========================
 
 HOST-SUFFIX,tradingview.com,PROXY
@@ -47,7 +51,7 @@ HOST-SUFFIX,wsj.com,PROXY
 
 
 # =========================
-# PUSH / REALTIME INFRA
+# PUSH / WS INFRA
 # =========================
 
 HOST-SUFFIX,pusher.com,PROXY
@@ -55,7 +59,7 @@ HOST-SUFFIX,pusherapp.com,PROXY
 
 
 # =========================
-# DNS / HTTPS RESOLVERS
+# DNS (safe mode)
 # =========================
 
 HOST-SUFFIX,doh.pub,PROXY
@@ -64,7 +68,7 @@ HOST-SUFFIX,cloudflare-dns.com,PROXY
 
 
 # =========================
-# SYSTEM STABILITY (DO NOT REMOVE)
+# SYSTEM SAFETY
 # =========================
 
 IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
