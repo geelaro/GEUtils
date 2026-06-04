@@ -22,7 +22,7 @@ HOST-SUFFIX,futubull.com,PROXY
 HOST-SUFFIX,futubull.cn,PROXY
 HOST-SUFFIX,futu.link,PROXY
 
-DOMAIN-SUFFIX,futustatic.com,PROXY
+HOST-SUFFIX,futustatic.com,PROXY
 
 # =========================
 # LONGBRIDGE
@@ -68,7 +68,7 @@ HOST-SUFFIX,pusherapp.com,PROXY
 # DNS / HTTPS RESOLVER
 # =========================
 
-HOST-SUFFIX,doh.pub,PROXY
+HOST-SUFFIX,doh.pub,DIRECT
 HOST-SUFFIX,dns.google,PROXY
 HOST-SUFFIX,cloudflare-dns.com,PROXY
 
