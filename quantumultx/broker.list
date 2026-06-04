@@ -6,9 +6,28 @@
 # FUTU / Longbridge / Tiger websocket optimize
 # ==================================================
 
-# ==================================================
-# Longbridge
-# ==================================================
+# =========================
+# FUTU / MOOMOO
+# =========================
+
+HOST-SUFFIX,futunn.com,PROXY
+HOST-SUFFIX,moomoo.com,PROXY
+HOST-SUFFIX,futuhk.com,PROXY
+HOST-SUFFIX,futuholdings.com,PROXY
+HOST-SUFFIX,futu.com,PROXY
+HOST-SUFFIX,futuinc.com,PROXY
+HOST-SUFFIX,futuniuniu.com,PROXY
+HOST-SUFFIX,futufin.com,PROXY
+HOST-SUFFIX,futubull.com,PROXY
+HOST-SUFFIX,futubull.cn,PROXY
+HOST-SUFFIX,futu.link,PROXY
+
+DOMAIN,cdn.futustatic.com,PROXY
+
+
+# =========================
+# LONGBRIDGE
+# =========================
 
 HOST-SUFFIX,longbridge.com,PROXY
 HOST-SUFFIX,longbridgeapp.com,PROXY
@@ -16,38 +35,26 @@ HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,lbkrs.com,PROXY
 
-HOST-KEYWORD,longbridge,PROXY
-HOST-KEYWORD,lbkrs,PROXY
+DOMAIN,quote.longbridge.global,PROXY
 
-# ==================================================
-# FUTU / moomoo
-# ==================================================
 
-HOST-SUFFIX,futunn.com,PROXY
-HOST-SUFFIX,futuhk.com,PROXY
-HOST-SUFFIX,futubull.com,PROXY
-
-HOST-SUFFIX,moomoo.com,PROXY
-HOST-SUFFIX,moomoo.io,PROXY
-HOST-SUFFIX,moomoo.inc,PROXY
-
-HOST-KEYWORD,moomoo,PROXY
-HOST-KEYWORD,futu,PROXY
-
-# ==================================================
-# Tiger
-# ==================================================
+# =========================
+# TIGER BROKERS
+# =========================
 
 HOST-SUFFIX,itiger.com,PROXY
-HOST-SUFFIX,tigerfintech.com,PROXY
+HOST-SUFFIX,itigerup.com,PROXY
+HOST-SUFFIX,tigerbrokers.com,PROXY
 HOST-SUFFIX,tigerbrokers.com.sg,PROXY
+HOST-SUFFIX,tigerfintech.com,PROXY
 
-HOST-KEYWORD,tigerbrokers,PROXY
-HOST-KEYWORD,itiger,PROXY
+HOST-SUFFIX,laohu8.com,PROXY
+HOST-SUFFIX,tigerbbs.com,PROXY
 
-# ==================================================
-# Trading / Market Data
-# ==================================================
+
+# =========================
+# MARKET / DATA / PUSH
+# =========================
 
 HOST-SUFFIX,tradingview.com,PROXY
 HOST-SUFFIX,polygon.io,PROXY
@@ -55,23 +62,21 @@ HOST-SUFFIX,nasdaq.com,PROXY
 HOST-SUFFIX,bloomberg.com,PROXY
 HOST-SUFFIX,wsj.com,PROXY
 
-# ==================================================
-# Push / Realtime / WebSocket
-# ==================================================
-
 HOST-SUFFIX,pusher.com,PROXY
 HOST-SUFFIX,pusherapp.com,PROXY
 
-# ==================================================
-# DNS Optimize
-# ==================================================
+
+# =========================
+# DNS / HTTPS RESOLVER
+# =========================
 
 HOST-SUFFIX,doh.pub,PROXY
 HOST-SUFFIX,dns.google,PROXY
 HOST-SUFFIX,cloudflare-dns.com,PROXY
 
-# ==================================================
-# Apple Push Direct
-# ==================================================
+
+# =========================
+# SYSTEM SAFETY (DO NOT REMOVE)
+# =========================
 
 IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
