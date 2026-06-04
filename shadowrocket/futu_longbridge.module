@@ -1,5 +1,5 @@
-#!name=FUTU + Longbridge Trading Rules
-#!desc=Production grade broker routing (FUTU + Longbridge)
+#!name=FUTU + Longbridge Trading (Optimized)
+#!desc=Production-grade broker routing optimized version
 #!author=Bryan
 
 [Rule]
@@ -19,8 +19,7 @@ DOMAIN-SUFFIX,futufin.com,PROXY
 DOMAIN-SUFFIX,futubull.com,PROXY
 DOMAIN-SUFFIX,futubull.cn,PROXY
 DOMAIN-SUFFIX,futu.link,PROXY
-
-DOMAIN-SUFFIX,cdn.futustatic.com,PROXY
+DOMAIN-SUFFIX,futustatic.com,PROXY
 
 
 # =========================
@@ -32,8 +31,7 @@ DOMAIN-SUFFIX,longbridgeapp.com,PROXY
 DOMAIN-SUFFIX,longbridge.sg,PROXY
 DOMAIN-SUFFIX,longbridgehk.com,PROXY
 DOMAIN-SUFFIX,lbkrs.com,PROXY
-
-DOMAIN,quote.longbridge.global,PROXY
+DOMAIN-SUFFIX,longbridge.global,PROXY
 
 
 # =========================
@@ -48,7 +46,7 @@ DOMAIN-SUFFIX,wsj.com,PROXY
 
 
 # =========================
-# PUSH / REALTIME
+# PUSH / WS INFRA
 # =========================
 
 DOMAIN-SUFFIX,pusher.com,PROXY
@@ -56,16 +54,7 @@ DOMAIN-SUFFIX,pusherapp.com,PROXY
 
 
 # =========================
-# DNS / HTTPS RESOLVER
+# SAFE SYSTEM DEFAULT
 # =========================
 
-DOMAIN-SUFFIX,doh.pub,PROXY
-DOMAIN-SUFFIX,dns.google,PROXY
-DOMAIN-SUFFIX,cloudflare-dns.com,PROXY
-
-
-# =========================
-# SYSTEM SAFETY
-# =========================
-
-IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
+FINAL,DIRECT
