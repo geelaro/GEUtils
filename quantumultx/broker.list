@@ -75,4 +75,3 @@ HOST-SUFFIX,cloudflare-dns.com,PROXY
 # ==================================================
 
 IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
-```
