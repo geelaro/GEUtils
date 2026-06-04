@@ -22,8 +22,7 @@ HOST-SUFFIX,futubull.com,PROXY
 HOST-SUFFIX,futubull.cn,PROXY
 HOST-SUFFIX,futu.link,PROXY
 
-DOMAIN,cdn.futustatic.com,PROXY
-
+DOMAIN-SUFFIX,futustatic.com,PROXY
 
 # =========================
 # LONGBRIDGE
@@ -35,8 +34,7 @@ HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,lbkrs.com,PROXY
 
-DOMAIN,quote.longbridge.global,PROXY
-
+HOST-SUFFIX,longbridge.global,PROXY
 
 # =========================
 # TIGER BROKERS
