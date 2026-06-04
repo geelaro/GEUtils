@@ -1,3 +1,4 @@
+```ini id="qx_final_v2"
 # ==================================================
 # BROKER RULESET (OPTIMIZED QX VERSION)
 # FUTU + LONGBRIDGE
@@ -35,10 +36,6 @@ HOST-SUFFIX,lbkrs.com,PROXY
 HOST-SUFFIX,longbridge.global,PROXY
 
 
-# quote / realtime (broader coverage)
-DOMAIN-SUFFIX,longbridge.global,PROXY
-
-
 # =========================
 # MARKET DATA
 # =========================
@@ -62,7 +59,7 @@ HOST-SUFFIX,pusherapp.com,PROXY
 # DNS (safe mode)
 # =========================
 
-HOST-SUFFIX,doh.pub,PROXY
+HOST-SUFFIX,doh.pub,DIRECT
 HOST-SUFFIX,dns.google,PROXY
 HOST-SUFFIX,cloudflare-dns.com,PROXY
 
