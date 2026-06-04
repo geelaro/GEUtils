@@ -1,0 +1,79 @@
+```ini id="t2o1xa"
+# ==================================================
+# NAME: Broker WS Optimize
+# AUTHOR: Bryan
+# UPDATED: 2026-06-04
+# DESCRIPTION:
+# FUTU / Longbridge / Tiger websocket optimize
+# ==================================================
+
+# ==================================================
+# Longbridge
+# ==================================================
+
+HOST-SUFFIX,longbridge.com,PROXY
+HOST-SUFFIX,longbridgeapp.com,PROXY
+HOST-SUFFIX,longbridge.sg,PROXY
+HOST-SUFFIX,longbridgehk.com,PROXY
+HOST-SUFFIX,lbkrs.com,PROXY
+
+HOST-KEYWORD,longbridge,PROXY
+HOST-KEYWORD,lbkrs,PROXY
+
+# ==================================================
+# FUTU / moomoo
+# ==================================================
+
+HOST-SUFFIX,futunn.com,PROXY
+HOST-SUFFIX,futuhk.com,PROXY
+HOST-SUFFIX,futubull.com,PROXY
+
+HOST-SUFFIX,moomoo.com,PROXY
+HOST-SUFFIX,moomoo.io,PROXY
+HOST-SUFFIX,moomoo.inc,PROXY
+
+HOST-KEYWORD,moomoo,PROXY
+HOST-KEYWORD,futu,PROXY
+
+# ==================================================
+# Tiger
+# ==================================================
+
+HOST-SUFFIX,itiger.com,PROXY
+HOST-SUFFIX,tigerfintech.com,PROXY
+HOST-SUFFIX,tigerbrokers.com.sg,PROXY
+
+HOST-KEYWORD,tigerbrokers,PROXY
+HOST-KEYWORD,itiger,PROXY
+
+# ==================================================
+# Trading / Market Data
+# ==================================================
+
+HOST-SUFFIX,tradingview.com,PROXY
+HOST-SUFFIX,polygon.io,PROXY
+HOST-SUFFIX,nasdaq.com,PROXY
+HOST-SUFFIX,bloomberg.com,PROXY
+HOST-SUFFIX,wsj.com,PROXY
+
+# ==================================================
+# Push / Realtime / WebSocket
+# ==================================================
+
+HOST-SUFFIX,pusher.com,PROXY
+HOST-SUFFIX,pusherapp.com,PROXY
+
+# ==================================================
+# DNS Optimize
+# ==================================================
+
+HOST-SUFFIX,doh.pub,PROXY
+HOST-SUFFIX,dns.google,PROXY
+HOST-SUFFIX,cloudflare-dns.com,PROXY
+
+# ==================================================
+# Apple Push Direct
+# ==================================================
+
+IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
+```
