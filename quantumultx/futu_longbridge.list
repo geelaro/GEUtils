@@ -18,6 +18,8 @@ HOST-SUFFIX,futufin.com,PROXY
 HOST-SUFFIX,futubull.com,PROXY
 HOST-SUFFIX,futubull.cn,PROXY
 HOST-SUFFIX,futu.link,PROXY
+HOST-SUFFIX,futuhn.com,PROXY
+HOST-SUFFIX,fututrade.com,PROXY
 
 # CDN / static (expanded for stability)
 HOST-SUFFIX,futustatic.com,PROXY
@@ -32,6 +34,7 @@ HOST-SUFFIX,longbridgeapp.com,PROXY
 HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,lbkrs.com,PROXY
+HOST-SUFFIX,lbctrl.com,PROXY
 HOST-SUFFIX,longbridge.global,PROXY
 
 
