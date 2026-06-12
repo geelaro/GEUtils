@@ -21,6 +21,8 @@ HOST-SUFFIX,futufin.com,PROXY
 HOST-SUFFIX,futubull.com,PROXY
 HOST-SUFFIX,futubull.cn,PROXY
 HOST-SUFFIX,futu.link,PROXY
+HOST-SUFFIX,futuhn.com,PROXY
+HOST-SUFFIX,fututrade.com,PROXY
 
 HOST-SUFFIX,futustatic.com,PROXY
 
@@ -33,6 +35,8 @@ HOST-SUFFIX,longbridgeapp.com,PROXY
 HOST-SUFFIX,longbridge.sg,PROXY
 HOST-SUFFIX,longbridgehk.com,PROXY
 HOST-SUFFIX,lbkrs.com,PROXY
+HOST-SUFFIX,lbctrl.com,PROXY
+
 
 HOST-SUFFIX,longbridge.global,PROXY
 
@@ -42,9 +46,13 @@ HOST-SUFFIX,longbridge.global,PROXY
 
 HOST-SUFFIX,itiger.com,PROXY
 HOST-SUFFIX,itigerup.com,PROXY
+HOST-SUFFIX,itigergrowtha.com,PROXY
 HOST-SUFFIX,tigerbrokers.com,PROXY
 HOST-SUFFIX,tigerbrokers.com.sg,PROXY
 HOST-SUFFIX,tigerfintech.com,PROXY
+HOST-SUFFIX,skytigris.cn,PROXY
+HOST-SUFFIX,skytigris.com,PROXY
+HOST-SUFFIX,skytigris.cn,PROXY
 
 HOST-SUFFIX,laohu8.com,PROXY
 HOST-SUFFIX,tigerbbs.com,PROXY
