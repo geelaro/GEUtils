@@ -56,18 +56,3 @@ HOST-SUFFIX,wsj.com,PROXY
 HOST-SUFFIX,pusher.com,PROXY
 HOST-SUFFIX,pusherapp.com,PROXY
 
-
-# =========================
-# DNS (safe mode)
-# =========================
-
-HOST-SUFFIX,doh.pub,DIRECT
-HOST-SUFFIX,dns.google,PROXY
-HOST-SUFFIX,cloudflare-dns.com,PROXY
-
-
-# =========================
-# SYSTEM SAFETY
-# =========================
-
-IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
