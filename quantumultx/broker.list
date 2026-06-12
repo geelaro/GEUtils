@@ -6,6 +6,12 @@
 # FUTU / Longbridge / Tiger websocket optimize
 # ==================================================
 
+IP-CIDR,119.28.0.0/16,PROXY,no-resolve
+IP-CIDR,119.91.0.0/16,PROXY,no-resolve
+IP-CIDR,101.32.0.0/15,PROXY,no-resolve
+IP-CIDR,43.152.0.0/15,PROXY,no-resolve
+IP-CIDR,170.106.0.0/16,PROXY,no-resolve
+IP-CIDR,124.156.0.0/16,PROXY,no-resolve
 # =========================
 # FUTU / MOOMOO
 # =========================
@@ -76,7 +82,6 @@ HOST-SUFFIX,pusherapp.com,PROXY
 # DNS / HTTPS RESOLVER
 # =========================
 
-HOST-SUFFIX,doh.pub,DIRECT
 HOST-SUFFIX,dns.google,PROXY
 HOST-SUFFIX,cloudflare-dns.com,PROXY
 
@@ -85,4 +90,3 @@ HOST-SUFFIX,cloudflare-dns.com,PROXY
 # SYSTEM SAFETY (DO NOT REMOVE)
 # =========================
 
-IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
